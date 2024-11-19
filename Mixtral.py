@@ -1,7 +1,7 @@
 from langchain_huggingface import HuggingFaceEndpoint
 import os
 
-HUGGINGFACEHUB_API_TOKEN = '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'
+HUGGINGFACEHUB_API_TOKEN = 'your hugginfgae access token'
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = HUGGINGFACEHUB_API_TOKEN
 
 repo_id = "mistralai/Mixtral-8x7B-Instruct-v0.1"
